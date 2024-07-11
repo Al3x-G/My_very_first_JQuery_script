@@ -10,8 +10,14 @@ $(document).ready(function() {
 });
 */
 
+/*
 $(document).ready(function() {
-    $("h2").addClass("underline"); // underlines all h2 elements using class from style in html file
-    $("ul").addClass("border"); // adds a border to all lists using class from style in html file
+    $("h2").addClass("underline"); // underlines all h2 elements, using predefined classes in html file
+    $("ul").addClass("border"); // adds a border to all lists, using predefined classes in html file
 });
+*/
 
+$(document).ready(function() {
+    $("h2").removeClass("underline"); // removes the style class from all h2 elements
+    $("ul").removeClass("border"); // removes the style class from all ul elements
+});
